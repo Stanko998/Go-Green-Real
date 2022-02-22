@@ -14,13 +14,13 @@
     height: 250px;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    padding: 20px;
 
     #{&}-content {
         @include flexCenter;
         font-size: 35px;
         background-color: $ligh-yellow-bck;
         color: $green-text;
-        transform: scale(0.9);
         height: 100%;
     }
 }

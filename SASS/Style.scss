@@ -29,6 +29,7 @@
         img {
             margin: auto;
             transition: $transition-time-long;
+            border-radius: 100%;
             &:hover {
                 transform: rotateY(180deg);
             }
